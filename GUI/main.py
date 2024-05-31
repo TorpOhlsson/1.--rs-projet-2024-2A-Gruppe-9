@@ -4,10 +4,10 @@ from tkinter import scrolledtext
 import mysql.connector
 
 mydb = mysql.connector.connect(
-            host="XXXXX",
-            user="XXXXX",
-            password="XXXXX",
-            database="XXXXX"
+            host="xxx",
+            user="xxx",
+            password="xxx",
+            database="xxx"
 )    
 
 

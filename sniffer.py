@@ -13,13 +13,13 @@ led = RGBLED(red=red_pin, green=green_pin, blue=blue_pin)
 led.color = (0, 1, 0)
 
 mydb = mysql.connector.connect(
-    	host="XXXXX",
-        user="XXXXX",
-        password="XXXXX",
-        database="XXXXX"
+    	host="xxx",
+        user="xxx",
+        password="xxx",
+        database="xxx"
 )
 
-with open("/home/USER/sniffer/signatures.txt") as txt_file: 
+with open("/home/christian/sniffer/signatures.txt") as txt_file: 
     txt_data = txt_file.read() 
 signatures = json.loads(txt_data)   
 
